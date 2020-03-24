@@ -177,3 +177,7 @@ blocks:
         - name: KStreams aggregation MIN/MAX tests
           commands:
             - make -C _includes/tutorials/aggregating-minmax/kstreams/code tutorial
+
+        - name: KStreams Spring Boot error handling tests tests
+          commands:
+            - make -C _includes/tutorials/spring-kafka-error-handling/kafka/code tutorial
